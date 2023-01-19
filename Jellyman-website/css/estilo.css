@@ -1,0 +1,53 @@
+/*
+* 
+* @author Gabriel Sanches de Almeida
+*/
+html, body, #home{
+	height: 100%;
+}
+
+body{
+	background: url(https://cdn.discordapp.com/attachments/1065408444150059079/1065450586176233573/fundao.png),
+				linear-gradient(180deg, #ffd050, #ff6962);
+	background-attachment: fixed;
+}
+
+/* - NAVBAR - */
+nav.navbar-transparente{
+    backdrop-filter: blur(9px) saturate(120%);
+    -webkit-backdrop-filter: blur(9px) saturate(120%);
+    background-color: rgba(0, 0, 0, 0.39);
+    border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+
+/* NAVBAR BUTTONS */
+.navbar-light .navbar-nav .nav-link{
+	color:white;
+	font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+	color:lightgray;
+	font-weight: bold;
+}
+
+.navbar-light .navbar-toggler {
+	border-color: white;
+}
+
+/* CAPA */
+.capa{
+	text-align: center;
+	padding-left: 35%;	
+	margin-left: -17%;
+}
+.text-content{
+	color:white;
+	font-weight: bolder;
+	backdrop-filter: blur(9px) saturate(120%);
+    -webkit-backdrop-filter: blur(9px) saturate(120%);
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 100px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
+
+}
